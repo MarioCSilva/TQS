@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: SauceLabsHomePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! - in SauceLabsHomePageTest
+site_header_is_on_home_page  Time elapsed: 0.041 s  <<< ERROR!
+java.lang.NullPointerException
+	at SauceLabsHomePageTest.site_header_is_on_home_page(SampleTest.java:33)
+

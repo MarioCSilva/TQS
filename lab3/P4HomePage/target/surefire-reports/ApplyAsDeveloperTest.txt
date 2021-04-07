@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ApplyAsDeveloperTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 38.894 s <<< FAILURE! - in ApplyAsDeveloperTest
+applyAsDeveloper{FirefoxDriver}  Time elapsed: 38.883 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
+	at ApplyAsDeveloperTest.applyAsDeveloper(ApplyAsDeveloperTest.java:17)
+

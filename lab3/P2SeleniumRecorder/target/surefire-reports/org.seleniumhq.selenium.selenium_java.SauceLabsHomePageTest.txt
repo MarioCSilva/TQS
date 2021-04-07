@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: org.seleniumhq.selenium.selenium_java.SauceLabsHomePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.459 s <<< FAILURE! - in org.seleniumhq.selenium.selenium_java.SauceLabsHomePageTest
+site_header_is_on_home_page  Time elapsed: 6.437 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'MacBook-Pro-de-Mario.local', ip: '192.168.31.134', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102a26b59 chromedriver + 2595673
+1   chromedriver                        0x00000001030dab33 chromedriver + 9624371
+2   chromedriver                        0x00000001027d6773 chromedriver + 169843
+3   chromedriver                        0x00000001027f5c75 chromedriver + 298101
+4   chromedriver                        0x00000001027f4032 chromedriver + 290866
+5   chromedriver                        0x0000000102827234 chromedriver + 500276
+6   chromedriver                        0x00000001028224f3 chromedriver + 480499
+7   chromedriver                        0x00000001027fccd6 chromedriver + 326870
+8   chromedriver                        0x00000001027fdba7 chromedriver + 330663
+9   chromedriver                        0x00000001029f4b09 chromedriver + 2390793
+10  chromedriver                        0x0000000102a01bcc chromedriver + 2444236
+11  chromedriver                        0x0000000102a016ee chromedriver + 2442990
+12  chromedriver                        0x00000001029db832 chromedriver + 2287666
+13  chromedriver                        0x0000000102a0263f chromedriver + 2446911
+14  chromedriver                        0x00000001029ea299 chromedriver + 2347673
+15  chromedriver                        0x0000000102a198b9 chromedriver + 2541753
+16  chromedriver                        0x0000000102a2c008 chromedriver + 2617352
+17  libsystem_pthread.dylib             0x00007fff6bf25109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6bf20b8b thread_start + 15
+
+	at org.seleniumhq.selenium.selenium_java.SauceLabsHomePageTest.site_header_is_on_home_page(SampleTest.java:13)
+
