@@ -1,0 +1,5 @@
+com/example/cardemo/entities/Car.class
+com/example/cardemo/services/CarManagerService.class
+com/example/cardemo/repositories/CarRepository.class
+com/example/cardemo/controllers/CarController.class
+com/example/cardemo/CardemoApplication.class
