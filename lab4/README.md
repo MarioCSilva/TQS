@@ -15,8 +15,12 @@ assertThat(allEmployees).hasSize(3).extracting(Employee::getName).containsOnly(a
 Mock the behaviour of the repository in class *EmployeeService_UnitTest*:
 
 ```
-Mockito.when(employeeRepository.findByName(john.getName())).thenReturn(john);    Mockito.when(employeeRepository.findByName(alex.getName())).thenReturn(alex);        Mockito.when(employeeRepository.findByName("wrong_name")).thenReturn(null);        Mockito.when(employeeRepository.findById(john.getId())).thenReturn(Optional.of(john));
-Mockito.when(employeeRepository.findAll()).thenReturn(allEmployees);        Mockito.when(employeeRepository.findById(-99L)).thenReturn(Optional.empty());
+Mockito.when(employeeRepository.findByName(john.getName())).thenReturn(john);
+Mockito.when(employeeRepository.findByName(alex.getName())).thenReturn(alex);
+Mockito.when(employeeRepository.findByName("wrong_name")).thenReturn(null);
+Mockito.when(employeeRepository.findById(john.getId())).thenReturn(Optional.of(john));
+Mockito.when(employeeRepository.findAll()).thenReturn(allEmployees);
+Mockito.when(employeeRepository.findById(-99L)).thenReturn(Optional.empty());
 ```
 
 ### **c)** What is the difference between standard @Mock and @MockBean?
