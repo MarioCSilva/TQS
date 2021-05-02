@@ -27,28 +27,28 @@
 
 ##### After running the Sonar Qube on the IES project, it passes the default quality gate:
 
-![geanihouse_overview](/Users/mario/Desktop/TQS/lab6/images/geanihouse_overview.png)
+![geanihouse_overview](./images/geanihouse_overview.png)
 
 ##### It had 281 Code Smells with around 4 days of debt:
 
-![geanihouse_code_smells](/Users/mario/Desktop/TQS/lab6/images/geanihouse_code_smells.png)
+![geanihouse_code_smells](./images/geanihouse_code_smells.png)
 
 ##### Also had 14 Vulnerabilities:
 
-![geanihouse_vulnerabilities](/Users/mario/Desktop/TQS/lab6/images/geanihouse_vulnerabilities.png)
+![geanihouse_vulnerabilities](./images/geanihouse_vulnerabilities.png)
 
 ##### And also 13 Security Hotspots:
 
-![geanihouse_security_hotspot](/Users/mario/Desktop/TQS/lab6/images/geanihouse_security_hotspot.png)
+![geanihouse_security_hotspot](./images/geanihouse_security_hotspot.png)
 
 3. ### a/
 
 ##### We defined the following quality gate:
 
-![geanihouse_quality_gate](/Users/mario/Desktop/TQS/lab6/images/geanihouse_quality_gate.png)
+![geanihouse_quality_gate](./images/geanihouse_quality_gate.png)
 
 ##### This quality gate will check on the overall code if the number of bugs are greater than 0, code smells more than 200, coverage less than 80%, duplicated blocks above 10 and vulnerabilities more than 0. If any of these conditions are true then it will fail. Has we can see from the above pictures it will obviously fail on some of them.
 
-![geanihouse_failed_quality_gate](/Users/mario/Desktop/TQS/lab6/images/geanihouse_failed_quality_gate.png)
+![geanihouse_failed_quality_gate](./images/geanihouse_failed_quality_gate.png)
 
 ##### As expected it failed on 4 of the 5 conditions, having only passed by having less than 11 duplicated blocks.
