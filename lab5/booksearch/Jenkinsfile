@@ -1,19 +1,19 @@
 pipeline {
  agent any
- tools {
- jdk 'jdk11'
- maven 'mvn3'
+  tools {
+  jdk 'jdk11'
+  maven 'mvn3'
  }
  stages {
- stage('test java installation') {
- steps {
- sh 'java -version'
- }
- }
- stage('test maven installation') {
- steps {
- sh 'mvn -version'
- }
- }
+  stage('Install') {
+   steps {
+    sh "mvn clean install"
+   }
+   post {
+    always {
+     junit '**/target/*-reports/TEST-*.xml'
+    }
+   }
+  }
  }
 }
